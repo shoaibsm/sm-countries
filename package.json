@@ -1,0 +1,36 @@
+{
+  "name": "sm-country-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shoaibsm/sm-countries.git"
+  },
+  "keywords": [
+    "Country information",
+  	"Geographical data",
+  	"Nation details", "Country statistics",
+	"International data",
+	"Geo API",
+	"World facts" ,
+	"Global insights" ,
+	"Geo components",
+	"Country UI"
+  ],
+  "author": "Shoaib Mohammed <shoaib.sm6655@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
+
+
